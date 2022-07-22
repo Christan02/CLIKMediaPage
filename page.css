@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url("/Users/.chris/Documents/Business/CLIK 3/CLIK WEBPAGE BACKGROUND 4K.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: absolute;
+    top:0;
+    margin-bottom: 0;
+}
+
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 4rem;
+    margin: auto 80px;
+}
+
+.Nav-right li{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    letter-spacing: 0.5px;
+}
+
+.Nav-right a:hover{
+    width: 100%;
+}
+
+.Nav-left img{
+    width: 12rem;
+    height: 10rem;
+    margin-top: 20px;
+}
+
+.Nav-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.Memories{
+    color: white;
+    margin: 300px 120px;
+    text-align: center;
+}
+
+.Memories h1{
+    font-size: 2.5rem;
+}
+
+.Memories p{
+    font-size: 1rem;
+}
+
+#services h1{
+    color: black;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+#services{
+    background-color: #ffffff;
+    margin-top: 0px;
+    padding-top: 15px;
+    max-width: 100%;
+
+}
+
+.Services-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 70%;
+    padding-top: 10px; 
+    margin: 20px auto;
+}
+
+#portfolio{
+    background-color: #edeae5;
+}
+
+
+#philosophy{
+    background-color: #2b6777;
+}
+
+footer{
+    background-color: rgba(3, 8, 36);
+    color: white;
+}
+
+.Overlay{
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;    
+}
+
+.Box-1{
+    background-image: url("photos.jpeg");
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    max-width: 30rem;
+    
+}
+
+.Box-2{
+    background-image: url("Unknown.jpeg");
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    max-width: 30rem;
+
+}
+
+.Box-3{
+    background-image: url("management.jpeg");
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    max-width: 30rem;
+
+}
+
+.Box-4{
+    background-image: url("development.jpeg");
+    border-radius: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    max-width: 30rem;
+
+}
+
+
+#philosophy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.Philosophy h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Philosophy p{
+    font-size: 1.2rem;
+    color: white;
+    max-width: 70ch;
+    text-align: center;
+    padding: 6px;
+    letter-spacing: 0.3px;
+    font-family: 'Courier New', Courier, monospace ;
+
+}
+
+Footer{
+    display: flex;
+    align-items: center;
+    height: 10ch;
+    margin-bottom: 0;
+}
+
+.Foot-links img{
+    width: 5em;
+    height: auto;
+}
+
+.Foot li{
+    display: inline;
+    padding: 10px;
+}
+
+.Foot-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 6pt;
+}
+
+#team{
+    width: 100%;
+}
+
+/* .From-left{
+    transform: translateX(-50%);
+
+}
+
+.From-right{
+    transform: translateX(50%);
+}
+
+.From-left,
+.From-right{
+    transition: 
+    opacity 250ms ease-in, 
+    transform 400ms ease-in;
+    opacity: 1;
+} */
+
+.From-left{
+    margin-left: 40%;
+}
+
+.From-right{
+    margin-right: 40%;
+}
+/* 
+.From-left.appear,
+.From-right.appear{
+    transform: translateX(0);
+    opacity: 1;
+} */
+
+.Team-grid img{
+    height: 35rem;
+    width: 40rem;
+    padding: 40px;
+    border-radius: 30px;
+    filter: blur(10px);
+  }
+  
+  .Team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: auto auto;
+  }
+  
+  .slide-in{
+    padding-top: 50px;
+    margin: auto auto;
+  }
+  
+  
+  .wrapper{
+    margin: auto auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 40px;
+  }
+
+  video{
+      width: 70%;
+      padding-bottom: 20px;
+  }
+
+  .Port-header{
+      margin: auto auto;
+      font-size: 60px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .Nav-right img{
+    visibility: hidden;
+  }
+  
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #c1b5b1;
+    margin: auto 20px;
+}
+
+.Form-link{
+    text-decoration: none;
+    color: white;
+}
+
+.Desc{
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    width: 48ch;
+}
+
+.Team-head{
+    font-size: 60pt;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+  @media (max-width: 1000px){
+      html{
+          display: block;
+      }
+
+      .Nav-bar{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: auto 160px;
+      }
+    
+    .Nav-right{
+        visibility: hidden;
+    }
+    
+    .Nav-right img{
+        text-align: right;
+        visibility: visible;
+        margin: auto auto;
+    }
+
+    .Services-grid{
+        display: block;
+        max-width: 100%;
+        margin: 5px auto;
+        padding: 60px;
+        justify-content: space-around;
+    }
+
+    #services h1{
+        margin-top: 40px;
+        font-size: 40pt;
+    }
+
+    .Box-1{
+        padding: 100px;
+        max-width: 800px;
+    }
+
+    .Box-2{
+        padding: 100px;
+        max-width: 800px;
+    }
+
+    .Box-3{
+        padding: 100px;
+        max-width: 800px;
+
+    }
+    .Box-4{
+        padding: 100px;
+        max-width: 800px;
+
+    }
+
+    video{
+        height: auto;
+        max-width: 80%;
+    }
+
+    .Button-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       max-width: 100%;
+       padding: 20px;
+    }
+
+    .Button{
+        height: 2rem ;
+        max-width: 100px;
+        padding: 10px;
+        border-radius: 7px;
+        background: transparent;
+        color: black;
+        margin: auto 20px;
+    }
+
+    .Port-header{
+        margin: auto auto;
+        margin-top: 25px;
+        margin-bottom: 0;
+        font-size: 30pt;
+        padding-top: 20px;
+    }
+
+    #team{
+        width: 100%;
+    }
+
+    .Team-grid{
+       display: grid;
+        width: 100%;
+    }
+
+    .wrapper{
+        max-width: 100%;
+    }
+    
+    #Serv-photos{
+        margin-bottom: 1.5rem;
+        max-width: 100%;
+    }
+    .Philosophy h1{
+        font-size: 2rem;
+    }
+    .Philosophy p{
+        font-size: 1.3rem;
+    }
+
+    .Team-grid img{
+        max-height: 20rem;
+        width: 100%;
+        /* padding: 20px; */
+        border-radius: 25px;
+      }
+      
+      .slide-in p{
+       width: 100%;
+      }
+
+      .From-right{
+          width: 100%;
+      }
+
+      .Desc{
+          font-size: 1rem;
+          padding-bottom: 70px;
+      }
+
+      .FRL{
+          padding-left: 10px;
+      }
+
+      .Team-head{
+        font-size: 30pt;
+      }
+    
+  }
+
+  @media (max-width: 600px){
+      .Nav-bar{
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          width: 100%;
+          margin: 20px 240px;
+      }
+      .Nav-left img{
+          visibility: hidden;
+      }
+      .Nav-right img{
+          background-color: white;
+      }
+      #team{
+        width: 100%;
+    }
+
+    .Memories h1{
+        font-size: 16pt;
+    }
+
+    .Team-grid{
+       display: block;
+        width: 100%;
+        margin: auto auto;
+    }
+    .Team-grid img{
+        height: 100%;
+        width: 100%;
+      }
+      
+      .Desc{
+          margin: 5px auto;
+          width: 20ch;
+      }
+      .FRL,.FRR{
+         text-align: center;
+      }
+
+      .From-left,.From-right{
+          padding-top: 0px;
+      }
+  }
+  
